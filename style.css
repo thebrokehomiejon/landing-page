@@ -17,6 +17,12 @@ ul {
     list-style: none;
 }
 
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
 .navbar .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -81,3 +87,30 @@ ul {
     border-radius: 5px;
     border-style: none;
 }
+
+.info h2 {
+   text-align: center;
+   margin-top: 25px;
+}
+
+.info .container {
+    margin-top: 50px;
+    
+}
+
+.info .box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info li {
+    width: 25px;
+}
+
+.info img {
+    width: 100px;
+    height: 100px;
+}
+   
+    
